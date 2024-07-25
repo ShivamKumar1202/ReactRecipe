@@ -20,8 +20,8 @@ const DesktopSidebar = () =>{
             <div className='flex flex-col sticky gap-20 top-10 left-0'>
 
                 <div className='w-full'>
-                    <img src='/logo.svg' alt='logo' className='hidden md:block'/>
-                    <img src='/mobile-logo.svg' alt='mobile-logo' className='block md:hidden' />
+                    <img src='/logo.png' alt='logo' className='hidden md:block'/>
+                    <img src='/mobile-logo.png' alt='mobile-logo' className='block md:hidden' />
                 </div>
                 <ul className='flex flex-col items-center md:items-start gap-8'>
                     <Link to={"/"} className="flex gap-1">
